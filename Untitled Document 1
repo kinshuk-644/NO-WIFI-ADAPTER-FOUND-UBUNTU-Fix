@@ -1,0 +1,6 @@
+link - https://unix.stackexchange.com/questions/416180/ubuntu-no-wifi-adapter-found
+
+(Just connect using usb cable to do usb tethering, open terminal by Ctrl+Alt+T and type:
+
+sudo apt-get install --reinstall bcmwl-kernel-source
+Then, reboot.)
